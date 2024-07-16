@@ -126,3 +126,118 @@ header {
   margin-top: 15px;
   width: 100%;
 }
+
+/* sponsor section style start  */
+
+.sponsor {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-top: 1px solid rgba(192, 204, 218, 0.4);
+  border-bottom: 1px solid rgba(192, 204, 218, 0.4);
+  padding: 36px 0;
+}
+/* popular collection section styles start */
+.popular-title {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.popular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.card-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 17px 15px 25px;
+}
+.card-item img {
+  width: 100%;
+}
+.cart-title {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #18191f;
+  margin: 15px 0 3px;
+}
+.price {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+.rating {
+  margin: 5px 0;
+}
+.rating i {
+  color: orange;
+}
+.rating-number {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-left: 5px;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-top: 15px;
+}
+.see-more {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.see-more a {
+  text-decoration: none;
+  color: #e02c6d;
+  font-weight: 700;
+}
+/* featured product section start   */
+.feature {
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-content {
+  max-width: 610px;
+}
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #0a0826;
+}
+.feature-description {
+  margin: 16px 0;
+  font-weight: 700;
+  color: #6c6c6c;
+}
+.feature-content button {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+/* footer start  */
+footer {
+  background: #0a0826;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+.footer-social {
+  justify-content: center;
+}
+.footer-social li {
+  list-style: none;
+  margin: 20px 10px;
+}
+.footer-social li a {
+  color: white;
+}
