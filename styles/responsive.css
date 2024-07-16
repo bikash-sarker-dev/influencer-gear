@@ -1,24 +1,57 @@
 @media screen and (max-width: 576px) {
   .navbar,
-  .links,
-  .banner {
+  .links {
     flex-direction: column;
   }
+  .banner-content {
+    text-align: center;
+  }
+  .feature,
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .feature-image {
+    margin-top: 50px;
+  }
   .banner-title {
-    font-size: 2.6rem;
+    font-size: 1.6rem;
+    margin-top: 40px;
   }
   .banner-picture {
     margin-top: 40px;
+  }
+  .sponsor {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .popular {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-content {
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .navbar,
-  .links,
-  .banner {
+  .links {
     flex-direction: column;
   }
   .banner-picture {
     margin-top: 40px;
+  }
+  .sponsor {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  .popular {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .feature,
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .feature-image {
+    margin-top: 50px;
   }
 }
